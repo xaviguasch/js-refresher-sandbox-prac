@@ -1,11 +1,9 @@
 body {
   background-color: aquamarine;
-  display: flex;
-  justify-content: center;
 }
 
 .face {
-  /* position: absolute; */
+  position: absolute;
   background-color: bisque;
   height: 150px;
   width: 150px;

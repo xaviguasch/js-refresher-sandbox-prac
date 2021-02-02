@@ -14,12 +14,18 @@
 
 // Functions exercise
 
-const bob = document.querySelector('.face')
-let count = 0
+// const bob = document.querySelector('.face')
+// let count = 0
 
-function moveBob() {
-  count += 50
-  bob.style.left = count + 'px'
-}
+// function moveBob() {
+//   count += 50
+//   bob.style.left = count + 'px'
+// }
 
-bob.addEventListener('click', moveBob)
+// bob.addEventListener('click', moveBob)
+
+// some()
+
+const scores = [23, 25, 65, 71, 52]
+
+console.log(scores.some((score) => score > 50))
